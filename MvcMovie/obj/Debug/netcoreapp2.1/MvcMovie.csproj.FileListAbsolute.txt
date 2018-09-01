@@ -32,3 +32,42 @@ E:\Personal Path\文档\Visual Studio 2017\Projects\MvcMovie\MvcMovie\obj\Debug\
 E:\Personal Path\文档\Visual Studio 2017\Projects\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.csproj.CopyComplete
 E:\Personal Path\文档\Visual Studio 2017\Projects\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld\Index.g.cshtml.cs
 E:\Personal Path\文档\Visual Studio 2017\Projects\MvcMovie\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld\Welcome.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\bin\Debug\netcoreapp2.1\MvcMovie.deps.json
+F:\Project\MvcMoive\MvcMovie\bin\Debug\netcoreapp2.1\MvcMovie.runtimeconfig.json
+F:\Project\MvcMoive\MvcMovie\bin\Debug\netcoreapp2.1\MvcMovie.runtimeconfig.dev.json
+F:\Project\MvcMoive\MvcMovie\bin\Debug\netcoreapp2.1\MvcMovie.dll
+F:\Project\MvcMoive\MvcMovie\bin\Debug\netcoreapp2.1\MvcMovie.pdb
+F:\Project\MvcMoive\MvcMovie\bin\Debug\netcoreapp2.1\MvcMovie.Views.dll
+F:\Project\MvcMoive\MvcMovie\bin\Debug\netcoreapp2.1\MvcMovie.Views.pdb
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.csproj.CoreCompileInputs.cache
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.RazorAssemblyInfo.cache
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.RazorAssemblyInfo.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.AssemblyInfoInputs.cache
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.AssemblyInfo.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.TagHelpers.input.cache
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.TagHelpers.output.cache
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.RazorCoreGenerate.cache
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld\Index.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\HelloWorld\Welcome.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.RazorTargetAssemblyInfo.cache
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.RazorTargetAssemblyInfo.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.Views.pdb
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.dll
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.pdb
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.csproj.CopyComplete
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Create.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Delete.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Details.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Edit.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\Razor\Views\Movies\Index.g.cshtml.cs
+F:\Project\MvcMoive\MvcMovie\obj\Debug\netcoreapp2.1\MvcMovie.csprojAssemblyReference.cache
