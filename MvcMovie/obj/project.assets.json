@@ -12218,23 +12218,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\JinHua\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Project\\MvcMoive\\MvcMovie\\MvcMovie.csproj",
+      "projectUniqueName": "E:\\Personal Path\\文档\\Visual Studio 2017\\Projects\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
       "projectName": "MvcMovie",
-      "projectPath": "F:\\Project\\MvcMoive\\MvcMovie\\MvcMovie.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "F:\\Project\\MvcMoive\\MvcMovie\\obj\\",
+      "projectPath": "E:\\Personal Path\\文档\\Visual Studio 2017\\Projects\\MvcMovie\\MvcMovie\\MvcMovie.csproj",
+      "packagesPath": "C:\\Users\\JinHua\\.nuget\\packages\\",
+      "outputPath": "E:\\Personal Path\\文档\\Visual Studio 2017\\Projects\\MvcMovie\\MvcMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\JinHua\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

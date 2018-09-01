@@ -19,11 +19,33 @@ namespace MvcMovie.Controllers
         }
 
         // GET: Movies
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string movieGenre, string searchString)
         {
-            return View(await _context.Movie.ToListAsync());
+            var genreQuery = from g in _context.Movie
+                             orderby g.Genre
+                             select g.Genre;
+
+            var movies = from m in _context.Movie
+                         select m;
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(m => m.Title.Contains(searchString));
+            }
+            if (!string.IsNullOrEmpty(movieGenre))
+            {
+                movies = movies.Where(m => m.Genre == movieGenre);
+            }
+            var movieGenreVM = new MovieGenreViewModel();
+            movieGenreVM.genres = new SelectList(await genreQuery.Distinct().ToListAsync());
+            movieGenreVM.movies = await movies.ToListAsync();
+            return View(movieGenreVM);
         }
 
+        //[HttpPost]
+        //public string Index(string searchString, bool notUsed)
+        //{
+        //    return "From [HttpPost]Index: filter on " + searchString;
+        //}
         // GET: Movies/Details/5
         public async Task<IActionResult> Details(int? id)
         {
@@ -53,7 +75,7 @@ namespace MvcMovie.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,Title,ReleaseDate,Genre,Price")] Movie movie)
+        public async Task<IActionResult> Create([Bind("ID,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
         {
             if (ModelState.IsValid)
             {
@@ -85,7 +107,7 @@ namespace MvcMovie.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Title,ReleaseDate,Genre,Price")] Movie movie)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Title,ReleaseDate,Genre,Price,Rating")] Movie movie)
         {
             if (id != movie.ID)
             {
@@ -147,6 +169,22 @@ namespace MvcMovie.Controllers
         private bool MovieExists(int id)
         {
             return _context.Movie.Any(e => e.ID == id);
+        }
+        public IActionResult DeleteAll()
+        {
+            return View();
+        }
+        [HttpPost, ActionName("DeleteAll")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteAllConfirmed()
+        {
+            var movies = await _context.Movie.ToListAsync();
+            if (movies.Count > 0)
+            {
+                movies.ForEach(item => _context.Movie.Remove(item));
+            }
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
         }
     }
 }
